@@ -1,1 +1,57 @@
 /*viết mã css*/
+* {
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:;
+}
+
+#hoten{
+    text-transform: uppercase;/*in hoa */
+    font-size:32pt;/*cỡ chữ*/
+    font-weight:bolder;/*in đậm*/
+    color:#00ff00;/*màu chữ*/
+}
+.tieude{
+    text-transform:uppercase;
+    /*background-color:gray;*/
+    max-width:400px;
+    width:100%;
+    padding:15px;
+    color:red;
+    /*border-radius:5px;*/
+    font-weight:bolder;
+    font-size:20pt;
+    border-left:7px solid gray;
+}
+#mota{
+    letter-spacing:4px;
+    line-height:2;
+    text-align:justify;
+}
+table#bang2{
+    width:100%;
+    max-width:500px;
+    margin:5px;
+}
+table#bang2, table#bang2 td, table#bang2 tr, table#bang2 th {
+    border:1px solid red;
+    padding: 7px;
+    border-collapse:collapse;
+}
+ul, ol{
+    margin: 15px 0px;
+    /*border:1px solid black;*/
+    list-style-type:none;
+    list-style-position:inside;
+    max-width:500px;
+    margin:15px 0px;
+}
+li{
+    padding:10px;
+    border-bottom:2px solid green;
+}
+li:hover{
+    background-color:orange;
+    font-weight:bolder;
+}
