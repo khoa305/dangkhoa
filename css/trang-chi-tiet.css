@@ -112,3 +112,64 @@ footer{
     padding:15px;
 
 }
+#detail{
+
+    padding:40px;
+    background:white;
+    text-align:center;
+
+}
+
+
+.detail-card{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    max-width:800px;
+    margin:auto;
+    background:#f9f9f9;
+    padding:25px;
+    border-radius:15px;
+
+}
+
+
+.detail-card img{
+
+    width:600px;
+    height:500px;
+    object-fit:contain;
+
+}
+
+
+.info{
+
+    text-align:left;
+}
+
+
+.info p{
+
+    line-height:1.6;
+
+}
+
+
+@media(max-width:1000px){
+
+.detail-card{
+
+    flex-direction:column;
+
+}
+
+.info{
+
+    text-align:center;
+
+}
+
+}
